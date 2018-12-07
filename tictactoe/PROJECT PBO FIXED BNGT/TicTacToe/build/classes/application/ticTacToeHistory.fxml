@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="mainPane" fx:id="historyPane" prefHeight="486.0" prefWidth="480.0" style="-fx-background-color: CADETBLUE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.HistoryController">
+   <children>
+      <MenuBar maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="30.0" prefWidth="477.0" AnchorPane.bottomAnchor="456.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <effect>
+            <Blend />
+         </effect>
+      </MenuBar>
+      <Button fx:id="backButton" layoutX="42.0" layoutY="433.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="28.0" prefWidth="95.0" text="Back">
+         <font>
+            <Font name="Comic Sans MS" size="14.0" />
+         </font></Button>
+      <TableView fx:id="TableHistory" layoutX="42.0" layoutY="88.0" prefHeight="329.0" prefWidth="395.0" />
+      <Label fx:id="LHistory" layoutX="167.0" layoutY="30.0" text="History" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="40.0" />
+         </font></Label>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

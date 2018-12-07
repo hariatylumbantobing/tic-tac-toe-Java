@@ -1,0 +1,36 @@
+
+.button{
+    -fx-font-weight : bold;
+    -fx-background-color : #ff5400;
+    -fx-backgroud-radius : 32;
+    -fx-font-size : 16;
+    -fx-text-fill : white;
+}
+
+.button:hover{
+    -fx-font-weight : bold;
+    -fx-background-color : white;
+    -fx-backgroud-radius : 32;
+    -fx-font-size : 16;
+    -fx-text-fill : #ff5400;
+}
+
+
+/*
+.button{
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-font-weight : bold;
+}
+*/
+
+.menulabel{
+    -fx-background-color:  grey;
+    -fx-border-color: black;
+}
+
+
+.menu-button .menu-item, .context-menu {
+ -fx-background-color:#e64a19; }
